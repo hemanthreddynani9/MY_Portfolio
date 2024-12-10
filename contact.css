@@ -1,0 +1,24 @@
+body{
+    color: whitesmoke;
+    background-color: rgb(32, 32, 41);;
+}
+
+.fieldstyle{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.table{
+    padding-left: 400px;
+    padding-top: -50%;
+    font-size: 25px;
+}
+h1{
+    color: red;
+    font-size: 35px;
+}
+.image{
+    margin-top: -260px;
+    margin-right: 75%;
+    padding-left: 40px;
+}

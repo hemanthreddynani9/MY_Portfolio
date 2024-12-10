@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact_Me</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body id="body">
+        <fieldset class="fieldstyle">
+            <form>
+               <center>
+                <h1 id="h1">Please Feel Free to Contact Me</h1>
+                </center>
+                <table class="table">
+     
+                 <tr><td><label for="firstname">First Name</label></td><td><input type="text" required pattern="[A-Za-z]+" title="Please use letters only" size="80"></td></tr>
+                 <tr><td> <label for="middlename">Middle Name</label></td><td><input type="text" required pattern="[A-Za-z]+" title="Please use letters only" size="80"></td></tr> 
+                 <tr><td><label for="lastname">Last name</label></td><td><input type="text"  required required pattern="[A-Za-z]+" title="Please use letters only" size="80"></td></tr>
+                 <tr><td><label for="gender">Gender</label></td>
+                     <td><input type="radio" name="gender"><label for="male" >Male</label>
+                         <input type="radio" name="gender"><label for="female" >Female</label>
+                         <input type="radio" name="gender"><label for="others" >Others</label>
+                     </td> 
+                 </tr>
+                 <tr><td><label for="mobilenumber">Mobile Number</label></td><td><input type="tel" required size="80"></td></tr>
+                 <tr><td><label for="email">E-mail</label></td><td><input type="email" size="80"></td></tr>
+                 <tr><td><label for="address">Address</label></td><td><input type="text" size="80"></td></tr>        
+                 <tr><td></td><td><input type="submit"></td></tr>
+                </table>  
+                <img src="images\portfolio_logo.png" alt="image not found" class="image">  
+             </form>
+        </fieldset>
+    </body>
+</html>

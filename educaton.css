@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(32, 32, 40);;
+}
+header{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3%;
+    margin-left: 45%;
+    margin-right: 40%;    
+}
+.tenth{
+    font-size: 25px;
+    border: 3px solid red;
+    background-color: red;
+    color: whitesmoke;
+    margin-top: 4%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right:20px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inter{
+    
+    
+    margin-top: 30px;
+    font-size: 25px;
+    border: 3px solid red;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btech{
+    margin-top: 30px;
+   font-size: 25px;
+   border: 3px solid red;
+   background-color: red;
+   color: whitesmoke;
+   border-radius: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+
+.tenth:hover p, .inter:hover p, .btech:hover p{
+    border-bottom: 2px solid white;
+
+}

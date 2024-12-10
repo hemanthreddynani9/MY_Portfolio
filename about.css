@@ -1,0 +1,35 @@
+body{
+    color: azure;
+    background-color:rgb(32, 32, 41);
+}
+h1{
+    margin-left: 20%;
+    margin-right: 70%;
+    margin-top: 5%;
+    padding-left: 10px;
+    border-bottom: 3px solid red;
+    color: red;
+
+}
+h1:hover{
+    border: 3px solid red;
+    color: whitesmoke;
+    background-color: red;
+    border-radius: 20px;
+    margin-right: 68%;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.image{
+    margin-top: 7%;
+    margin-right: 75%;
+    padding-left: 40px;
+
+}
+.about{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -27%;
+    font-size: 20px;
+}
